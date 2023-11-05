@@ -571,9 +571,24 @@
               id="user-comment"
             ></textarea>
           </div>
-          <div>
-            <input type="text" name="" id="" />
+          <div class="check">
+            <input
+              class="visually-hidden custom-checkbox"
+              type="checkbox"
+              name="user-check-privacy"
+              id="user-check-privacy"
+              value="true"
+            />
+            <label class="name-checkbox" for="user-check-privacy">
+              <span class="icon-checkbox">
+                <svg class="icon-check-click" width="10" height="8">
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a class="link link-privacy" href="">Privacy Policy</a>
+            </label>
           </div>
+          <button class="send-btn" type="button">Send</button>
         </form>
       </div>
     </div>

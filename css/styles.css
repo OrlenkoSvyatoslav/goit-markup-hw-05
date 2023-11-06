@@ -504,6 +504,10 @@ body {
   fill: #f4f4fd;
 }
 
+.footer-icon-send {
+  margin-left: 16px;
+}
+
 .subscribe {
   display: flex;
   flex-direction: column;
@@ -540,6 +544,7 @@ input::placeholder {
 }
 .footer-btn {
   display: inline-flex;
+  min-width: 165px;
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
@@ -583,7 +588,7 @@ input::placeholder {
 .form-modal {
   position: absolute;
   width: 408px;
-  height: 584px;
+  min-height: 584px;
   background-color: #fcfcfc;
   border-radius: 4px;
   top: 50%;
@@ -670,6 +675,7 @@ input::placeholder {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   outline-color: transparent;
+  background-color: transparent;
   outline-offset: 5px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));

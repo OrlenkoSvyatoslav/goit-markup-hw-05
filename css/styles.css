@@ -509,19 +509,25 @@ body {
   flex-direction: column;
 }
 
-.footer-form-input {
+.footer-sub {
   display: flex;
+  gap: 24px;
 }
+
 .footer-form-subscribe {
   border: 1px solid #ffffff;
   border-radius: 4px;
   padding: 8px 0;
   padding-left: 16px;
-  background-color: #2e2f42;
+  background-color: transparent;
   color: #ffffff;
-  margin-right: 24px;
   width: 264px;
   height: 40px;
+  outline: none;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 input::placeholder {
